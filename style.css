@@ -13,3 +13,21 @@
 
 @import url("../accelerate-theme/style.css");
 
+/* homepage background image update */
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+
+/* new top nav bar color */
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* new button color */
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}

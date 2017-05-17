@@ -1,3 +1,4 @@
+
 /*
  Theme Name:   Accelerate Theme Child
  Theme URI:    http://example.com/accelerate-theme-child/
@@ -13,6 +14,101 @@
 
 @import url("../accelerate-theme/style.css");
 
-body {
-	background: red;
+/* homepage background image update */
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
+
+
+/* new top nav bar color */
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* new button color */
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* recent blog post on homepage styles */
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies Single Post Page */
+
+aside.case-studies-sidebar {
+	float: left;
+	width: 300px;
+	margin: 30px 30px 0 0;
+}
+
+aside.case-studies-sidebar h1 {
+	color: black;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 16px 0 12px;
+}
+
+aside.case-studies-sidebar h5 {
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 16px 0 12px;
+}
+
+aside.case-studies-sidebar p {
+	font-size: 14px;
+}
+
+div.case-studies-images {
+	float: left;
+	width: 600px;
+	margin-top: 30px;
+}
+
+div.case-studies-images img{
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

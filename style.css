@@ -52,6 +52,10 @@
 	font-weight: 500;
 }
 
+.individual-featured-image figure {
+	margin-right: 10px;
+}
+
 /* recent blog post on homepage styles */
 
 .blog-post {
@@ -115,7 +119,19 @@ div.case-studies-images img{
 	margin-bottom: 30px;
 }
 
+/* Case Studies Archive Page */
 
+.case-studies-sidebar h2 {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.case-studies-sidebar h3 {
+	font-size: 14px;
+	font-weight: lighter;
+	color: #888888;
+	margin: 10px 0 20px 0;
+}
 
 
 

@@ -248,7 +248,31 @@ div.case-studies-images img{
 	color: #3a3939;
 }
 
+#service-1-image {
+	margin: 0;
+    width: 216px;
+    height: 216px;
+    float: left;
+}
 
+#service-1-info {
+	width: 520px;
+    float: left;
+    padding: 0 40px;
+}
+
+#service-3-image {
+	margin: 0;
+    width: 216px;
+    height: 216px;
+    float: left;
+}
+
+#service-3-info {
+	width: 520px;
+    float: left;
+    padding: 0 40px;
+}
 
 
 

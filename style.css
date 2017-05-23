@@ -21,10 +21,15 @@
 }
 
 
-/* new top nav bar color */
+/* top nav bar*/
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
+}
+
+#menu-top-nav li {
+	display: inline-block;
+	padding-left: 10px;
 }
 
 /* new button color */
@@ -133,15 +138,115 @@ div.case-studies-images img{
 	margin: 10px 0 20px 0;
 }
 
+/* contact us page */
+
+#content h5 {
+	font-size: 16px;
+	font-weight: lighter;
+	color: #888888;
+	margin-top: 10px;
+}
+
+#content label {
+	font-size: 12px;
+	color: #888888;
+}
+
+#nf-form-1-cont {
+	width: 615px;
+}
+
+#content {
+	width: 615px;
+}
+
+.name-input.nf-field-container {
+	clear: both;
+	float: left;
+	width: 300px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.email-input.nf-field-container {
+	clear: both;
+	width: 300px;
+	display: inline-block;
+}
+
+#nf-field-4 {
+	float: right;
+	background-color: #45ac9d;
+	width: 200px;
+	height: 60px;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: white;
+}
+
+#nf-field-3 {
+	width: 615px;
+}
+
+.nf-response-msg p {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	color: #888888;
+}
 
 
+/* about us page */
 
+/* hero area */
 
+.about{
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
 
+#intro p {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.6;
+	padding: 120px;
+}
 
+#intro p span {
+	color: #45ac9d;
+	font-weight: lighter;
+}
 
+/* services */
+.services {
+	width: 840px;
+	padding: 0 70px;
+}
 
+/* our services intro */
 
+.prefix {
+	text-align: center;
+	color: #3a3939;
+	font-size: 16px;
+	font-family: 'Open Sans';
+}
+
+.prefix h5 {
+	text-transform: uppercase;
+	padding: 30px;
+}
+
+.prefix p {
+	line-height: 6px;
+}
+
+/* 4 services */
+
+.services h3 {
+	font-size: 25px;
+	font-family: 'Open Sans';
+	color: #3a3939;
+}
 
 
 

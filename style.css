@@ -313,4 +313,22 @@ div.case-studies-images img{
     margin-bottom: 40px;
 }
 
+/* 404 page */
+
+#error404 {
+	margin: 100px 250px;
+}
+
+#error404 h3 {
+	text-align: center;
+	color: #3a3939;
+
+}
+
+
+
+
+
+
+
 

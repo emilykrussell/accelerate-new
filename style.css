@@ -64,7 +64,8 @@
 /* recent blog post on homepage styles */
 
 .blog-post {
-	width: 50%;
+	width: 40%;
+	float: left;
 }
 
 .blog-post h4 {
@@ -72,6 +73,7 @@
 	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
+	text-align: left;
 }
 
 .blog-post h2 {
@@ -240,78 +242,80 @@ div.case-studies-images img{
 	line-height: 6px;
 }
 
-/* 4 services */
+.service-image {
+	width: 216px;
+	height: 216px;
+}
 
+.post-47382 {
+	width: 520px;
+    float: left;
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+.post-43782 figure {
+	margin: 0;
+    float: left;
+    padding-top: 35px;
+}
+
+.post-47384 {
+ 	width: 520px;
+    float: left;
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+.post-47384 figure {
+	margin: 0;
+    float: right;
+    padding-top: 35px;
+}
+
+.post-47385 {
+	width: 520px;
+    float: left;
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+.post-47385 figure {
+	clear: both;
+	margin: 0;
+    float: left;
+    padding-top: 35px;
+
+}
+
+.post-47386 {
+   	width: 520px;
+    float: left;
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+
+
+.post-47386 figure {
+	margin: 0;
+    float: right;
+    padding-top: 35px;
+
+}
 .services h3 {
 	font-size: 25px;
 	font-family: 'Open Sans';
 	color: #3a3939;
 }
 
+/* 4 services
+
 #service-1 , #service-2 , #service-3 , #service-4 p {
 	line-height: 30px;
 }
 
-#service-1-image {
-	margin: 0;
-    width: 216px;
-    height: 216px;
-    float: left;
-    padding-top: 35px;
-}
+*/
 
-#service-1-info {
-	width: 520px;
-    float: left;
-    padding: 0 40px;
-    margin-bottom: 40px;
-}
-
-#service-2-image {
-	margin: 0;
-    float: right;
-    width: 216px;
-    height: 216px;
-    padding-top: 35px;
-}
-
-#service-2-info {
-    width: 520px;
-    float: left;
-    padding: 0 40px;
-    margin-bottom: 40px;
-}
-
-#service-3-image {
-	clear: both;
-	margin: 0;
-    width: 216px;
-    height: 216px;
-    float: left;
-    padding-top: 35px;
-}
-
-#service-3-info {
-	width: 520px;
-    float: left;
-    padding: 0 40px;
-    margin-bottom: 40px;
-}
-
-#service-4-image {
-	margin: 0;
-    float: right;
-    width: 216px;
-    height: 216px;
-    padding-top: 35px;
-}
-
-#service-4-info {
-    width: 520px;
-    float: left;
-    padding: 0 40px;
-    margin-bottom: 40px;
-}
 
 /* 404 page */
 
@@ -325,6 +329,31 @@ div.case-studies-images img{
 
 }
 
+/* homepage widget - twitter module */
+
+#pi_simpletwittertweets-2 {
+	float: right;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.widget-title {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 36px 0 40px;
+}
+
+.tweets {
+	color: #2b2b2b;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
 
 
 

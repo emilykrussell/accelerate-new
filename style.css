@@ -220,8 +220,8 @@ div.case-studies-images img{
 
 /* services */
 .services {
-	width: 840px;
-	padding: 0 70px;
+	width: 780px;
+	padding: 0 100px;
 }
 
 /* our services intro */
@@ -231,10 +231,12 @@ div.case-studies-images img{
 	color: #3a3939;
 	font-size: 16px;
 	font-family: 'Open Sans';
+	margin-bottom: 70px;
 }
 
 .prefix h5 {
 	text-transform: uppercase;
+	text-align: center;
 	padding: 30px;
 }
 
@@ -242,26 +244,39 @@ div.case-studies-images img{
 	line-height: 6px;
 }
 
+/* Services Layout */
+
 .service-image {
 	width: 216px;
 	height: 216px;
+	float: left;
 }
 
+/* first service post */
 .post-47382 {
-	width: 520px;
+	width: 780px;
     float: left;
     padding: 0 40px;
     margin-bottom: 40px;
 }
 
 .post-43782 figure {
-	margin: 0;
-    float: left;
+    width: 216px;
+    height: 216px;
     padding-top: 35px;
+    float: left;
+    margin: 0;
 }
 
+.service-content {
+	float: right;
+    width: 504px;
+    padding: 0 30px 0 30px;
+}
+
+/* second service post */
 .post-47384 {
- 	width: 520px;
+ 	width: 780px;
     float: left;
     padding: 0 40px;
     margin-bottom: 40px;
@@ -273,8 +288,9 @@ div.case-studies-images img{
     padding-top: 35px;
 }
 
+/* third service post */
 .post-47385 {
-	width: 520px;
+	width: 780px;
     float: left;
     padding: 0 40px;
     margin-bottom: 40px;
@@ -282,39 +298,33 @@ div.case-studies-images img{
 
 .post-47385 figure {
 	clear: both;
-	margin: 0;
-    float: left;
+	width: 216px;
+    height: 216px;
     padding-top: 35px;
-
+    float: left;
+    margin: 0;
 }
 
+/* fourth service post */
 .post-47386 {
-   	width: 520px;
+   	width: 780px;
     float: left;
     padding: 0 40px;
     margin-bottom: 40px;
 }
 
-
 .post-47386 figure {
 	margin: 0;
     float: right;
     padding-top: 35px;
-
 }
+
+
 .services h3 {
 	font-size: 25px;
 	font-family: 'Open Sans';
 	color: #3a3939;
 }
-
-/* 4 services
-
-#service-1 , #service-2 , #service-3 , #service-4 p {
-	line-height: 30px;
-}
-
-*/
 
 
 /* 404 page */
